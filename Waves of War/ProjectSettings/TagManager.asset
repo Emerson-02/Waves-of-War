@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Cannonball
+  - EnemyCannonball
+  - Island
+  - Chaser
+  - Shooter
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - Island
+  - Cannonball
+  - Player
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Islands
+    uniqueID: 186020599
+    locked: 0
+  - name: Explosion
+    uniqueID: 3951479095
+    locked: 0
+  - name: HealthBar
+    uniqueID: 2611754639
+    locked: 0
+  - name: UIElements
+    uniqueID: 3600883957
+    locked: 0
