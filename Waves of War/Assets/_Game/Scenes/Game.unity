@@ -849,11 +849,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Chaser - Will hunt you down and try to hit you
+  m_text: 'Chaser - Will chase you and try to hit you
 
 
-    Shooter - Will stop
-    near you and try to shoot you'
+    Shooter - Will stop near
+    you and try to shoot you'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
