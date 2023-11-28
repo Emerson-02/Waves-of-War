@@ -177,8 +177,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 48ff85d4bbff7c4448a391078b58a557, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  slider: {fileID: 1760826974353852886}
-  camera: {fileID: 0}
+  mainCamera: {fileID: 0}
   target: {fileID: 0}
 --- !u!1 &5937577489042194315
 GameObject:
