@@ -73,12 +73,34 @@ public class GameController : MonoBehaviour
 
     private void OnGUI()
     {
+        // Resolução base
+        float baseWidth = 1920f;
+        float baseHeight = 1080f;
+
+        // Resolução atual
+        float currentWidth = Screen.width;
+        float currentHeight = Screen.height;
+
+        // Calcular a proporção
+        float widthRatio = currentWidth / baseWidth;
+        float heightRatio = currentHeight / baseHeight;
+
+        // Usar a menor proporção para manter a consistência
+        float ratio = Mathf.Min(widthRatio, heightRatio);
+
+        // Calcular o tamanho da fonte ajustado
+        int adjustedFontSize = Mathf.FloorToInt(50 * ratio);
+
+        // Calcular o tempo restante
         int minutes = Mathf.FloorToInt(timeRemaining / 60F);
         int seconds = Mathf.FloorToInt(timeRemaining - minutes * 60);
         string niceTime = string.Format("{0:00}:{1:00}", minutes, seconds);
 
+        // Criar e ajustar o estilo
         GUIStyle style = new GUIStyle();
-        style.fontSize = 50; 
+        style.fontSize = adjustedFontSize;
+        
+        // Desenhar o rótulo
         GUI.Label(new Rect(10, 10, 250, 100), niceTime, style);
     }
 
